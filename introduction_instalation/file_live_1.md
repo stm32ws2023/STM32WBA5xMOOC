@@ -29,7 +29,7 @@ To navigate through this guide, please use the navigation buttons provided.
 # Prerequisites
 - Hardware:
   - **PC with MS Windows 10 operating system (preferred) and admin rights granted**
-  - **1 USB A to Micro-C Cable** cable 
+  - **1 USB A to Type-C Cable** cable 
   <br>
   ![microUSB cables](./img/USB_C.png)
   <br>
