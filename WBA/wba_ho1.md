@@ -7,7 +7,7 @@ Presentation
 # Add application code to move to discoverable
 <br>
 
-> CubeMX/STM32CubeIDE .IOC project for the HandsOn1 can be downloaded from [here](https://github.com/stm32ws2023/WBA_WS_ioc/blob/main/Hands-On_WS_WBA52.ioc)
+> CubeMX/STM32CubeIDE .IOC project for this MOOC can be downloaded from [here](https://github.com/stm32ws2023/STM32WBA5xMOOC/MOOC_IOC/Hands-On_WS_WBA55.ioc)
 <br>
 
 1.code needs to be added in **STM32_WPAN/App/app_ble.c** inside the function App_BLE_Init() Search for **/*USER CODE BEGIN APP_BLE_Init_2*/**
