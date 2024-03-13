@@ -8,7 +8,7 @@
   "filesToLoadArr": [
 
     {
-      "name": "STM32WBA Workshop - preparation before the session",
+      "name": "STM32WBA5x MOOC : material preparation",
       "path": "/introduction_instalation",
       "file": "file_live_1.md"
     },
@@ -28,13 +28,13 @@
 
     {
       "type": "Folder",
-      "name": "BEFORE WORKSHOP",
+      "name": "BEFORE MOOC",
       "children": [
   
         
           {
             "type": "File",
-            "name": "Before STM32WBA session",
+            "name": "Before STM32WBA handsOn ",
             "file": "file_live_1.md"
           }
 
