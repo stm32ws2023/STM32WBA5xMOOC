@@ -235,8 +235,8 @@ In case of neither errors nor warnings after this process, STM32CubeIDE and STM3
   - [STM32WBA Cube library](https://www.st.com/en/embedded-software/stm32cubewba.html)
 - [STM32 on-line training resources](https://www.st.com/content/st_com/en/support/learning/stm32-education/stm32-moocs.html)
 - documentation
-  - [STM32WBA52xx datasheet](https://www.st.com/resource/en/datasheet/stm32wba52ce.pdf)
-  - [STM32WBA52xx reference manual](https://www.st.com/resource/en/reference_manual/rm0493-multiprotocol-wireless-bluetooth-lowenergy-armbased-32bit-mcu-stmicroelectronics.pdf)
+  - [STM32WBA55xx datasheet](https://www.st.com/resource/en/datasheet/stm32wba55cg.pdf)
+  - [STM32WBA55xx reference manual](https://www.st.com/resource/en/reference_manual/rm0493-multiprotocol-wireless-bluetooth-lowenergy-armbased-32bit-mcu-stmicroelectronics.pdf)
 
 
 
