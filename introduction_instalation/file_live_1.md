@@ -222,10 +222,6 @@ In case of neither errors nor warnings after this process, STM32CubeIDE and STM3
 ## **Congratulations** You have completed installation part. Now you are fully prepared for the live workshop session. 
 </ainfo>
 
-<ainfo>
-## Slides for the complete Workshop can be downloaded from [here](https://github.com/stm32ws2023/STM32WBA_WS_Slide_deck). 
-</ainfo>
-
 ----
 
 # Materials for the session
