@@ -5,11 +5,6 @@ Presentation
 # Add application code to move to discoverable - ( Replacing code used in HandsOn#1 )
 <br>
 
-<awarning>
-**If you haven't been able to complete the configuration in handson#1, you can get the complete .ioc from this **[link](https://github.com/stm32ws2023/STM32WBA_HO2_Template)**
-
-</awarning>
-
 ----
 
 1.code needs to be added in **STM32_WPAN/App/app_ble.c** inside the function App_BLE_Init ~line 293 in **/*USER CODE BEGIN APP_BLE_Init_2*/**
