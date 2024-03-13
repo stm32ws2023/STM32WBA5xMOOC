@@ -3,10 +3,10 @@ Presentation
 ----!
 
 # Introduction
-## Dear Participant of STM32WBA Workshop,
+## Dear STM32WBA MOOC participant,
 <br>
 
-Welcome to our comprehensive guide on how to prepare for the live version of the STM32WBA Workshop session. This step-by-step guide is designed to provide you with all the necessary information about the prerequisites, installation process, and links to materials that will be useful during the session.
+Welcome to our comprehensive guide fot  STM32WBA55 MOOC. This step-by-step guide is designed to provide you with all the necessary information about the prerequisites, installation process, and links to materials that will be useful during this MOOC.
 
 In this guide, you will find detailed information about the required software and hardware, as well as a brief overview of the installation process. Additionally, we have included links to materials that will be helpful during the session.
 
@@ -21,10 +21,6 @@ To navigate through this guide, please use the navigation buttons provided.
 
 <br>
 
-If you have any questions or encounter any problems, please do not hesitate to contact us at  **[this link](https://community.st.com/t5/stm32wba/stm32wba-workshop-simplify-your-wireless-design-journey-with-st/m-p/594018)**
-
-We look forward to seeing you at the STM32WBA Workshop live session!
-<br>
 
 ## Yours,
 ## STMicroelectronics 
@@ -33,20 +29,19 @@ We look forward to seeing you at the STM32WBA Workshop live session!
 # Prerequisites
 - Hardware:
   - **PC with MS Windows 10 operating system (preferred) and admin rights granted**
-  - **1 USB A to Micro-B Cable** cable 
+  - **1 USB A to Micro-C Cable** cable 
   <br>
-  ![microUSB cables](./img/uUSB.jpg)
+  ![microUSB cables](./img/USB_C.png)
   <br>
-  - **[NUCLEO-WBA52CG](https://www.st.com/en/evaluation-tools/nucleo-wba52cg.html)** Nucleo-64 development board.
-  It will be provided to you by ST at the workshop session. 
+  - **[NUCLEO-WBA55CG](https://www.st.com/en/evaluation-tools/nucleo-wba55cg.html)** Nucleo-64 development board.
   <br>
   ![H5_DK](./img/5.png)
   <br>
 - Software (preferred PC with **MS Windows 10** operating system):
-  - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** in version 1.14.0 (please make sure to select 1.14.0 version before download)
+  - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** in version 1.14.0 (or higher)
 <br>
   
-  - **[STM32WBA Cube library](https://rristm.github.io/tomas_materials_v2/stm32ws2023/STM32WBA_WS/master/file_live_1.md/2)** in version 1.2.0 (**mandatory**)
+  - **[STM32WBA Cube library](https://rristm.github.io/tomas_materials_v2/stm32ws2023/STM32WBA_WS/master/file_live_1.md/2)** in version 1.3.0 (**mandatory**)
   - To be downloaded directly from STM32CubeIDE **[see next slide for procedure](https://rristm.github.io/tomas_materials_v2/stm32ws2023/STM32WBA_WS/master/file_live_1.md/2)**
   - **[CubeMx .ioc project template](https://github.com/stm32ws2023/WBA_WS_ioc)** we will use it during hands-on
   - **[Virtual COM port drivers](https://www.st.com/en/development-tools/stsw-stm32102.html)**
@@ -65,7 +60,7 @@ We look forward to seeing you at the STM32WBA Workshop live session!
 
 # Installation process
 - download **STM32CubeIDE** from [here](https://www.st.com/en/development-tools/stm32cubeide.html)
-	- Please make sure to select 1.14.0 version before download.
+	- Please make sure to select 1.14.0 version or higher before download.
 - Install **STM32CubeIDE** (if not yet done)
 - download and install **STM32WBA Cube library** (if not done yet):
   - run **STM32CubeIDE**
