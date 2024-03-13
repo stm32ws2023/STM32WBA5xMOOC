@@ -2,7 +2,7 @@
 Presentation
 ----!
 
-# Add application code to move to discoverable - ( Replacing code used in HandsOn#1 )
+# Add application code to move to discoverable - ( Replacing code previously used during part 1. )
 <br>
 
 ----
