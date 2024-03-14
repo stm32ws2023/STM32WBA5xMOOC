@@ -24,7 +24,7 @@ APP_BLE_Procedure_Gap_Peripheral(PROC_GAP_PERIPH_ADVERTISE_START_FAST);
 code needs to be added in **STM32_WPAN/App/p2p_server_app.c** inside the function P2P_SERVER_Notification() ~line 112 in **/*USER CODE BEGIN Service1Char1_WRITE_NO_RESP_EVT*/**
 
 ```c
-HAL_GPIO_TogglePin(GPIOB, LD2_Pin|LD3_Pin|LD1_Pin);
+HAL_GPIO_TogglePin(GPIOB, LD3_Pin|LD1_Pin);
 ```
 
 # Add application code to rise an alarm from device to Smartphone
