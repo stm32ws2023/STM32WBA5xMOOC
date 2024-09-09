@@ -14,49 +14,15 @@ Presentation
 
 ```c
   /* USER CODE BEGIN APP_BLE_Init_2 */
-  tBleStatus status;
-  status = aci_gap_set_discoverable(ADV_TYPE, ADV_INTERVAL_MIN,ADV_INTERVAL_MAX,
-                                             CFG_BD_ADDRESS_TYPE,
-                                             ADV_FILTER,
-                                             0, 0, 0, 0, 0, 0);
-  if (status != BLE_STATUS_SUCCESS) {
-	  return;
-  }
-
-  status = aci_gap_delete_ad_type(AD_TYPE_TX_POWER_LEVEL);
-  if (status != BLE_STATUS_SUCCESS) {
-	  return;
-  }
-
-  status = aci_gap_update_adv_data(sizeof(a_AdvData), (uint8_t*) a_AdvData);
-  if (status != BLE_STATUS_SUCCESS) {
-	  return;
-  }
+  APP_BLE_Procedure_Gap_Peripheral(PROC_GAP_PERIPH_ADVERTISE_START_FAST);
   /* USER CODE END APP_BLE_Init_2 */
 ```
 2.still in **STM32_WPAN/App/app_ble.c** inside SVCCTL_App_Notification function Search for **/*USER CODE BEGIN EVT_DISCONN_COMPLETE*/**
 
 ```c
       /* USER CODE BEGIN EVT_DISCONN_COMPLETE */
-  tBleStatus status;
-  status = aci_gap_set_discoverable(ADV_TYPE, ADV_INTERVAL_MIN,ADV_INTERVAL_MAX,
-                                             CFG_BD_ADDRESS_TYPE,
-                                             ADV_FILTER,
-                                             0, 0, 0, 0, 0, 0);
-  if (status != BLE_STATUS_SUCCESS) {
-	  LOG_INFO_APP("==>> aci_gap_set_discoverable - fail, result: 0x%02X\n", status);
-  }
-
-  status = aci_gap_delete_ad_type(AD_TYPE_TX_POWER_LEVEL);
-  if (status != BLE_STATUS_SUCCESS) {
-	  LOG_INFO_APP("==>> delete tx power level - fail, result: 0x%02X\n", status);
-  }
-
-  status = aci_gap_update_adv_data(sizeof(a_AdvData), (uint8_t*) a_AdvData);
-  if (status != BLE_STATUS_SUCCESS) {
-	   LOG_INFO_APP("==>> Start Advertising Failed, result: 0x%02X\n", status);
-  }
-     /* USER CODE END EVT_DISCONN_COMPLETE */
+      APP_BLE_Procedure_Gap_Peripheral(PROC_GAP_PERIPH_ADVERTISE_START_FAST);
+      /* USER CODE END EVT_DISCONN_COMPLETE */
 ```
 
 
