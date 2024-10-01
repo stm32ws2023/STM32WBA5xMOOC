@@ -52,7 +52,6 @@ Presentation
   if (status != BLE_STATUS_SUCCESS) {
 	   LOG_INFO_APP("==>> Start Advertising Failed, result: 0x%02X\n", status);
   }
-     /* USER CODE END EVT_DISCONN_COMPLETE */
       /* USER CODE END EVT_DISCONN_COMPLETE */
 ```
 
