@@ -6,7 +6,7 @@ Presentation
 ## Dear STM32WBA MOOC participant,
 <br>
 
-Welcome to our comprehensive guide fot  STM32WBA55 MOOC. This step-by-step guide is designed to provide you with all the necessary information about the prerequisites, installation process, and links to materials that will be useful during this MOOC.
+Welcome to our comprehensive guide for  STM32WBA55 MOOC. This step-by-step guide is designed to provide you with all the necessary information about the prerequisites, installation process, and links to materials that will be useful during this MOOC.
 
 In this guide, you will find detailed information about the required software and hardware, as well as a brief overview of the installation process. Additionally, we have included links to materials that will be helpful during the session.
 
@@ -28,25 +28,24 @@ To navigate through this guide, please use the navigation buttons provided.
 
 # Prerequisites
 - Hardware:
-  - **PC with MS Windows 10 operating system (preferred) and admin rights granted**
-  - **1 USB A to Type-C Cable** cable 
+  - PC with MS Windows 10 operating system (preferred) and admin rights granted
+  - 1 USB Type-C cable
+  - Smartphone
   <br>
   ![microUSB cables](./img/USB_C.png)
   <br>
-  - **[NUCLEO-WBA55CG](https://www.st.com/en/evaluation-tools/nucleo-wba55cg.html)** Nucleo-64 development board.
+  - **[NUCLEO-WBA55CG](https://www.st.com/en/evaluation-tools/nucleo-wba55cg.html)** Nucleo-64 development board. <br>(For in-person technical workshops the board will be provided by ST on the spot.)
   <br>
   ![H5_DK](./img/5.png)
   <br>
-- Software (preferred PC with **MS Windows 10** operating system):
-  - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** in version 1.14.0 (or higher)
-<br>
-  
-  - **[STM32WBA Cube library](https://rristm.github.io/tomas_materials_v2/stm32ws2023/STM32WBA_WS/master/file_live_1.md/2)** in version 1.3.0 (**mandatory**)
-  - To be downloaded directly from STM32CubeIDE **[see next slide for procedure](https://rristm.github.io/tomas_materials_v2/stm32ws2023/STM32WBA_WS/master/file_live_1.md/2)**
-  - **[CubeMx .ioc project template](https://github.com/stm32ws2023/WBA_WS_ioc)** we will use it during hands-on
-  - **[Virtual COM port drivers](https://www.st.com/en/development-tools/stsw-stm32102.html)**
-  -  any **serial terminal** application (e.g. **[Termite](https://termite.software.informer.com/3.4/)**)
-  - ST BLE ToolBox Smartphone Application - this has to be downloaded on your mobile
+- Software:
+  - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** v1.16.1  
+  - **[STM32CubeWBA Firmware Package](https://rristm.github.io/tomas_materials_v2/stm32ws2023/STM32WBA_WS/master/file_live_1.md/2)** v1.4.1
+  	- To be downloaded directly through the STM32CubeIDE , under Help->Manage Embedded Software Packages<br> **[See next slide for procedure](https://rristm.github.io/tomas_materials_v2/stm32ws2023/STM32WBA_WS/master/file_live_1.md/2)**
+  <!-- - **[CubeMx .ioc project template](https://github.com/stm32ws2023/WBA_WS_ioc)** we will use it during hands-on -->
+  <!-- - **[Virtual COM port drivers](https://www.st.com/en/development-tools/stsw-stm32102.html)** -->
+  -  Any serial terminal emulator application (e.g. **[Termite](https://termite.software.informer.com/3.4/)** or **[TeraTerm](https://teratermproject.github.io/index-en.html)**)
+  - ST BLE Toolbox smartphone app - this has to be downloaded via App Store or Google Play Store on your smartphone
     - **[Android version](https://play.google.com/store/apps/details?id=com.st.dit.stbletoolbox&hl=it&gl=US&pli=1)**
     <br>
     ![appqrcode](./img/27.png)
@@ -59,21 +58,18 @@ To navigate through this guide, please use the navigation buttons provided.
 <br>
 
 # Installation process
-- download **STM32CubeIDE** from [here](https://www.st.com/en/development-tools/stm32cubeide.html)
-	- Please make sure to select 1.14.0 version or higher before download.
-- Install **STM32CubeIDE** (if not yet done)
-- download and install **STM32WBA Cube library** (if not done yet):
-  - run **STM32CubeIDE**
-  - go to `Help -> Manage Embedded Software Packages`
-  - within package manager window find `STM32WBA`, unroll it and select newest available version ( in your case STM32WBA 1.2.0)
-  - press `install now`
+- Download **STM32CubeIDE** from [here](https://www.st.com/en/development-tools/stm32cubeide.html)
+	- Please make sure to select the latest version 1.16.1.
+- Install **STM32CubeIDE**
+- Download and install **STM32CubeWBA Firmware Package**:
+  - Run STM32CubeIDE
+  - Go to `Help -> Manage Embedded Software Packages`
+  - In the Embedded Software Packages Manager window, find the STM32WBA series, expand it, and check the checkbox for the latest available version
+  - Press `Install `
 <br>
 
 ![H5_Lib_Install](./img/61.PNG)
 
-<ainfo>
-STM32CubeMX and STM32CubeIDE are using the same repository by default, so the installed STM32WBA Cube library will be visible in both tools.
-</ainfo>
 
 
 <br>
