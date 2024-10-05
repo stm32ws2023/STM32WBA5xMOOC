@@ -39,9 +39,12 @@ To navigate through this guide, please use the navigation buttons provided.
   ![H5_DK](./img/5.png)
   <br>
 - Software:
-  - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** v1.16.1  
-  - **[STM32CubeWBA Firmware Package](https://rristm.github.io/tomas_materials_v2/stm32ws2023/STM32WBA_WS/master/file_live_1.md/2)** v1.4.1
-  	- To be downloaded directly through the STM32CubeIDE , under Help->Manage Embedded Software Packages<br> **[See next slide for procedure](https://rristm.github.io/tomas_materials_v2/stm32ws2023/STM32WBA_WS/master/file_live_1.md/2)**
+  - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** v1.16.0
+    > :warning: All attendees must install the exact specified version of the IDE for the workshop.<br>
+    > [STM32CubeIDE v1.16.0 Win x86_64 installer](https://drive.google.com/file/d/1EjO7UWWVZMysyf1Zk0Wh-4qY7Y6uGzzo/view?usp=sharing)
+  - **[STM32CubeWBA Firmware Package](https://rristm.github.io/tomas_materials_v2/stm32ws2023/STM32WBA_WS/master/file_live_1.md/2)** v1.4.0
+    > :warning: All attendees must install the exact specified version of the STM32CubeWBA firmware package for the workshop.
+  	- The package must be downloaded directly through the STM32CubeIDE , under Help->Manage Embedded Software Packages<br> **[See next slide for procedure](https://rristm.github.io/tomas_materials_v2/stm32ws2023/STM32WBA_WS/master/file_live_1.md/2)**
   <!-- - **[CubeMx .ioc project template](https://github.com/stm32ws2023/WBA_WS_ioc)** we will use it during hands-on -->
   <!-- - **[Virtual COM port drivers](https://www.st.com/en/development-tools/stsw-stm32102.html)** -->
   -  Any serial terminal emulator application (e.g. **[Termite](https://termite.software.informer.com/3.4/)** or **[TeraTerm](https://teratermproject.github.io/index-en.html)**)
@@ -59,12 +62,12 @@ To navigate through this guide, please use the navigation buttons provided.
 
 # Installation process
 - Download **STM32CubeIDE** from [here](https://www.st.com/en/development-tools/stm32cubeide.html)
-	- Please make sure to select the latest version 1.16.1.
+	- Please make sure to select the version 1.16.0 (not the latest one).
 - Install **STM32CubeIDE**
 - Download and install **STM32CubeWBA Firmware Package**:
   - Run STM32CubeIDE
   - Go to `Help -> Manage Embedded Software Packages`
-  - In the Embedded Software Packages Manager window, find the STM32WBA series, expand it, and check the checkbox for the latest available version
+  - In the Embedded Software Packages Manager window, find the STM32WBA series, expand it, and check the checkbox for the version v1.4.0
   - Press `Install `
 <br>
 
