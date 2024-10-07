@@ -41,10 +41,10 @@ To navigate through this guide, please use the navigation buttons provided.
 - Software:
   - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** v1.16.0
   	-  **Warning:** All attendees must install the exact specified version of the IDE for the workshop.
-   	-  [STM32CubeIDE v1.16.0 Win x86_64 installer](https://drive.google.com/file/d/1EjO7UWWVZMysyf1Zk0Wh-4qY7Y6uGzzo/view?usp=sharing)
+   -  [STM32CubeIDE v1.16.0 Win x86_64 installer](https://drive.google.com/file/d/1EjO7UWWVZMysyf1Zk0Wh-4qY7Y6uGzzo/view?usp=sharing)
   - **[STM32CubeWBA Firmware Package](https://rristm.github.io/tomas_materials_v2/stm32ws2023/STM32WBA_WS/master/file_live_1.md/2)** v1.4.0
   	- **Warning:** All attendees must install the exact specified version of the STM32CubeWBA firmware package for the workshop.
-   	- The package must be downloaded directly through the STM32CubeIDE , under Help->Manage Embedded Software Packages<br> **[See next slide for procedure](https://rristm.github.io/tomas_materials_v2/stm32ws2023/STM32WBA_WS/master/file_live_1.md/2)**
+   - The package must be downloaded directly through the STM32CubeIDE , under Help->Manage Embedded Software Packages<br> **[See next slide for procedure](https://rristm.github.io/tomas_materials_v2/stm32ws2023/STM32WBA_WS/master/file_live_1.md/2)**
   - **[STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html)** v2.17.0
   <!-- - **[CubeMx .ioc project template](https://github.com/stm32ws2023/WBA_WS_ioc)** we will use it during hands-on -->
   <!-- - **[Virtual COM port drivers](https://www.st.com/en/development-tools/stsw-stm32102.html)** -->
