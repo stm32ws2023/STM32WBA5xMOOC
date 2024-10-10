@@ -39,6 +39,7 @@ To navigate through this guide, please use the navigation buttons provided.
   ![H5_DK](./img/5.png)
   <br>
 - Software:
+  - **[Workshop Package](https://drive.google.com/file/d/1xP8wb-lbPSRSwxUzYoTjcddb1SjvHoRr/view?usp=sharing)** 
   - **[STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)** v1.16.0
   	-  **Warning:** All attendees must install the exact specified version of the IDE for the workshop.
    -  [STM32CubeIDE v1.16.0 Win x86_64 installer](https://drive.google.com/file/d/1EjO7UWWVZMysyf1Zk0Wh-4qY7Y6uGzzo/view?usp=sharing)
